@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Oefening03_Quiz.Quiz">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAABAA=</HashCode>
+      <FileName>Quiz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vragen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Oefening03_Quiz.Vraag">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vraag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oefening03_Quiz.MeerkeuzevraagAntwoord">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAwAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeerkeuzevraagAntwoord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oefening03_Quiz.Meerkeuzevraag">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Meerkeuzevraag.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Antwoorden" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Oefening03_Quiz.Antwoord">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Antwoord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

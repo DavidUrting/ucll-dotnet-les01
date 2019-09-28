@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoWPF"
+        xmlns:ViewModels="clr-namespace:DemoWPF.ViewModels" x:Class="DemoWPF.MainWindow"
+        mc:Ignorable="d"
+        Title="The UCLL Greeter" Height="200" Width="600">
+    <Window.DataContext>
+        <ViewModels:GreeterViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel>
+            <Label Content="Wie ben jij?" />
+            <TextBox Text="{Binding Name, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Margin="20,0" />
+            <Label Content="{Binding Greeting, Mode=OneWay}" />
+        </StackPanel>
+    </Grid>
+</Window>
